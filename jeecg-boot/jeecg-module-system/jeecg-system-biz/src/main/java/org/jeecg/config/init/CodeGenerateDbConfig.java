@@ -1,3 +1,4 @@
+/*
 package org.jeecg.config.init;
 
 import com.alibaba.druid.filter.config.ConfigTools;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+*/
 /**
  * @Description: 代码生成器,自定义DB配置
  * 【加了此类，则online模式DB连接，使用平台的配置，jeecg_database.properties配置无效;
@@ -19,7 +21,8 @@ import org.springframework.context.annotation.Configuration;
  * 重要说明：此类改路径或者名称，需要同步修改
  *  org/jeecg/interceptor/OnlineRepairCodeGenerateDbConfig.java里面的注解
  *  @ConditionalOnMissingClass("org.jeecg.config.init.CodeGenerateDbConfig")
- */
+ *//*
+
 @Slf4j
 @Configuration
 public class CodeGenerateDbConfig {
@@ -52,3 +55,4 @@ public class CodeGenerateDbConfig {
         return null;
     }
 }
+*/
