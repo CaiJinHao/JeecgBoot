@@ -28,7 +28,7 @@ spring:
         master:
           url: jdbc:mysql://jeecg-boot-mysql:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
           username: root
-          password: root
+          password: ${MYSQL_PWD:cngrain}
           driver-class-name: com.mysql.cj.jdbc.Driver
   data:
     redis:

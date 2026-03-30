@@ -10,12 +10,12 @@
 10.0.10.166 safestore-system
 ```
 ``` text
-10.0.10.162 jeecg-boot-redis
+192.168.2.88 jeecg-boot-redis
 192.168.2.88 jeecg-boot-rabbitmq
 10.0.10.165 jeecg-boot-mysql
-127.0.0.1 jeecg-boot-nacos
-127.0.0.1 jeecg-boot-gateway
-127.0.0.1 jeecg-boot-system
+192.168.2.89 jeecg-boot-nacos
+192.168.2.89 jeecg-boot-gateway
+192.168.2.89 jeecg-boot-system
 ```
 
 ## 创建模块
