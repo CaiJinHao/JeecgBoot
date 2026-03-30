@@ -3,13 +3,6 @@
 启动前需要修改本地 hosts，使用管理员启动修改：notepad C:\Windows\System32\drivers\etc\hosts
 将以下内容添加到 hosts 中：
 ``` text
-10.0.10.162 safestore-redis
-10.0.10.165 safestore-mysql
-10.0.10.166 safestore-nacos
-10.0.10.166 safestore-gateway
-10.0.10.166 safestore-system
-```
-``` text
 192.168.2.88 jeecg-boot-redis
 192.168.2.88 jeecg-boot-rabbitmq
 10.0.10.165 jeecg-boot-mysql
@@ -17,6 +10,15 @@
 192.168.2.89 jeecg-boot-gateway
 192.168.2.89 jeecg-boot-system
 ```
+
+## 修改配置
+
+### 修改密码
+
+批量搜索jeecg-boot-mysql，修改root密码为 ${MYSQL-PWD:密码}
+${MYSQL-PWD:root} 替换${MYSQL-PWD:密码}
+password: root  替换${MYSQL-PWD:cngrain}
+mysql://127.0.0.1:3306 替换 mysql://jeecg-boot-mysql:3306
 
 ## 创建模块
 
